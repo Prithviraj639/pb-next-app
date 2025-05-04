@@ -10,7 +10,7 @@ export default async function  Home() {
       <h1 className="text-4xl font-bold">Product List</h1>
       <ul className="list-disc">
         {products.map((product) => (
-          <li key={product.id} className="my-2 bg-grey-100 dark:bg-grey-900 p-4 rounded-lg shadow-md">
+          <li key={product.id} className="my-2 bg-slate-100 dark:bg-slate-800 p-4 rounded-lg shadow-md">
             <h2 className="text-2xl">{product.title}</h2>
             <p>{product.description}</p>
             <p className="font-bold">${product.price}</p>
